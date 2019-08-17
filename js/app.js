@@ -23,6 +23,22 @@ var allFeeds = [
     }
 ];
 
+function hasURL() {  //iterates through URL
+    for(let url of allFeeds) {
+        if(allFeeds.url != null) {
+            return true;
+        }
+    }
+}
+
+function hasName() { //iterates through name
+    for(let name of allFeeds) {
+        if(allFeeds.name != null) {
+            return true;
+        }
+    }
+}
+
 /* This function starts up our application. The Google Feed
  * Reader API is loaded asynchonously and will then call this
  * function when the API is loaded.

@@ -36,7 +36,7 @@ h2 {
 }
 
 .header {
-    background: #4caf50;
+    background: #8A4182;
     color: #fff;
     position: fixed;
     top: 0;
@@ -53,7 +53,7 @@ h2 {
     position: absolute;
     top: 3.5em;
     padding: 1em;
-    background: #4caf50;
+    background: #8A4182;
     height: 100%;
     width: 10em;
     transform: translate3d(0, 0, 0);
